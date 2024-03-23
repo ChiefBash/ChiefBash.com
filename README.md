@@ -1,4 +1,4 @@
-## 📃 Summary
+## 📃 Information
 <p>
   This is my personal portfolio website displaying my professional/technical skills, experience, education and past IT projects I've worked on.
 </p>
