@@ -3,10 +3,6 @@
   This is my personal portfolio website displaying my professional/technical skills, experience, education and past IT projects I've worked on.
 </p>
 
-<p>
-  https://chiefbash.com
-</p>
-
 ## 🧰 Languages & Tools
 
 <img align="left" alt="Cloudflare" title="Cloudflare" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg"/>
