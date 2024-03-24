@@ -1,0 +1,248 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+		
+		<title>ChiefBash</title>
+		<meta name="description" content="">
+        <meta name="keywords" content="ChiefBash, Chief, Bash">
+        <meta name="author" content="ChiefBash">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="ChiefBash">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="/assets/img/favicon.png">
+        <meta property="og:icon" content="/assets/img/favicon.png">
+        <meta property="og:thumbnail" content="/assets/img/favicon.png">
+        <meta property="og:url" content="https://chiefbash.com">
+
+        <meta property="twitter:card" content="app">
+        <meta property="twitter:title" content="ChiefBash">
+        <meta property="twitter:description" content="">
+        <meta property="twitter:image" content="/assets/img/favicon.png">
+        <meta property="twitter:icon" content="/assets/img/favicon.png">
+        <meta property="twitter:thumbnail" content="/assets/img/favicon.png">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+		<link rel="stylesheet" href="style.css">
+
+        <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+        <link rel="shortcut icon" type="x-icon" href="/assets/img/favicon.png">
+        <link rel="apple-touch-icon" type="image/png" href="/assets/img/favicon.png">
+
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+	</head>
+    
+    <body>
+
+        <!-- =============== Header =============== -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="/assets/img/favicon.png" class="logo" alt="ChiefBash">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                    
+                </nav>
+                <div class="header-info">
+                    <p>IT Professional</p>
+                    <h1>Hi, I'm <span>Sebastian</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- =============== About =============== -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="about-info">
+                        <center><img src="/assets/img/about.png" alt="About"></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste incidunt laborum repellendus quidem maxime eaque exercitationem quaerat natus, corrupti pariatur eius eum fuga ullam unde impedit nostrum accusamus eligendi.</p>
+
+                        <div class="tabs">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <!-- =============== Skills =============== -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><i class="fas fa-user-group"></i><span>Teamwork</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat labore eius nemo reprehenderit iusto laudantium? Necessitatibus eveniet eaque aperiam delectus! Libero id nobis nihil ab beatae, suscipit veritatis amet velit.</li>
+                                <li><i class="fas fa-comment"></i><span>Communication</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, mollitia adipisci, recusandae reiciendis sed distinctio eum unde repudiandae sit id inventore odio accusantium nulla tenetur eaque suscipit maxime ab. Mollitia?</li>
+                                <li><i class="fab fa-windows"></i><span>Windows</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, saepe? Voluptatum quod animi sequi similique nulla odio quam minus quo. Doloremque, et quam quo beatae excepturi voluptatibus saepe voluptate voluptates.</li>
+                                <li><i class="fab fa-linux"></i><span>Linux</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cupiditate dolor, nisi deserunt, itaque atque enim quos libero molestias eos harum, mollitia delectus labore esse error praesentium facere excepturi ad.</li>
+                                <li><i class="fas fa-desktop"></i><span>Computer Assembly</span><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ad asperiores porro eveniet est possimus sint perferendis vel, sunt totam quia, dolor nihil nisi recusandae ipsam sequi nesciunt sit labore.</li> 
+                            </ul>
+                        </div>
+
+                        <!-- =============== Experience =============== -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><i class="fas fa-plane"></i><span>Tri-Country Seminar</span><br>Waukesha County Technical College ┃ Enniskillen, Northern Ireland<br>March 2024</li>
+                                <li><i class="fas fa-briefcase"></i><span>IT Support Intern</span><br>Washington County Government ┃ West Bend, WI<br>Jan 2023 - May 2023</li>
+                                <li><i class="fas fa-briefcase"></i><span>Customer Service Representative</span><br>Vape 108 ┃ West Allis, WI<br>Apr 2021 - Jan 2023</li>
+                                <li><i class="fas fa-shield-halved"></i><span>Communications Technician</span><br>United States Army ┃ Joint Base Lewis-McChord, WA<br>Feb 2015 - May 2018</li>
+                            </ul>
+                        </div>
+
+                        <!-- =============== Education =============== -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><i class="fas fa-graduation-cap"></i><span>Information Technology - Network Specialist</span><br>Waukesha County Technical College ┃ Pewaukee, WI<br>Associate's Degree</li>
+                                <li><i class="fas fa-graduation-cap"></i><span>Information Technology - Cybersecurity Specialist</span><br>Waukesha County Technical College ┃ Pewaukee, WI<br>Associate's Degree</li>
+                                <li><i class="fas fa-trophy"></i><span>National Technical Honor Society</span><br>Inducted in 2024</li>
+                                <li><i class="fas fa-trophy"></i><span>Phi Theta Kappa</span><br>Inducted in 2023</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv">
+                            <center><img src="/assets/img/cv.png" alt="CV"></center>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla beatae, voluptate in rem deleniti esse numquam totam explicabo unde praesentium amet sint vero rerum aliquid earum consequuntur ducimus. Laudantium, magni.</p>
+                            <a href="/assets/pdf/CV.pdf" download class="btn">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =============== Portfolio =============== -->
+        <div id="portfolio">
+            <div class="container">
+                <img src="/assets/img/portfolio.png" alt="Portfolio">
+                <div class="project-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>ChiefBash.com</h2>
+                        <img src="/assets/img/chiefbash.png">
+                        <p>Technologies Used</p>
+                        <center>
+                            <i class="devicon-html5-plain colored" title="HTML5" alt="HTML5"></i>
+                            <i class="devicon-css3-plain colored" title="CSS3" alt="CSS3"></i>
+                            <i class="devicon-javascript-plain colored" title="JavaScript" alt="JavaScript"></i>
+                        </center>
+                        <footer>Website</footer>
+                    </div>
+                    <div>
+                        <i class="fas fa-lightbulb"></i>
+                        <h2>Coming Soon</h2>
+                        <!-- <img src=""> -->
+                        <!-- <p>Technologies Used</p> -->
+                        <!-- <footer>WIP</footer> -->
+                    </div>
+                    <div>
+                        <i class="fas fa-lightbulb"></i>
+                        <h2>Coming Soon</h2>
+                        <!-- <img src=""> -->
+                        <!-- <p>Technologies Used</p> -->
+                        <!-- <footer>WIP</footer> -->
+                    </div>
+                </div>
+                <div class="project-list">
+                    <div>
+                        <i class="fas fa-lightbulb"></i>
+                        <h2>Coming Soon</h2>
+                        <!-- <img src=""> -->
+                        <!-- <p>Technologies Used</p> -->
+                        <!-- <footer>WIP</footer> -->
+                    </div>
+                    <div>
+                        <i class="fas fa-lightbulb"></i>
+                        <h2>Coming Soon</h2>
+                        <!-- <img src=""> -->
+                        <!-- <p>Technologies Used</p> -->
+                        <!-- <footer>WIP</footer> -->
+                    </div>
+                    <div>
+                        <i class="fas fa-lightbulb"></i>
+                        <h2>Coming Soon</h2>
+                        <!-- <img src=""> -->
+                        <!-- <p>Technologies Used</p> -->
+                        <!-- <footer>WIP</footer> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =============== Contact =============== -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <center><img src="/assets/img/contact.png" alt="Contact"></center>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque officiis id earum illum ea cupiditate laudantium cum vel nulla magnam ipsa dolorum, minus architecto a error quaerat nisi iste magni?</p>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque officiis id earum illum ea cupiditate laudantium cum vel nulla magnam ipsa dolorum, minus architecto a error quaerat nisi iste magni?</p>
+                        <div class="socials">
+                            <a target="_blank" href="mailto:contact@chiefbash.com"><i class="fas fa-envelope"></i></a>
+                            <a target="_blank" href="https://facebook.com/chiefbash"><i class="fab fa-facebook"></i></a>
+                            <a target="_blank" href="https://x.com/chiefbash_"><i class="fab fa-x-twitter"></i></a>
+                            <a target="_blank" href="https://discord.com/users/327526567075119104"><i class="fab fa-discord"></i></a>                            <a target="_blank" href="https://github.com/chiefbash"><i class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://linkedin.com/in/chiefbash"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <center><a href="/assets/pdf/CV.pdf" download class="btn btn2">Download CV</a></center>
+
+                    </div>
+                    <div class="contact-right">
+                        <form action="mail.php" method="POST">
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="Email" placeholder="Email" required>
+                            <input type="text" name="Subject" placeholder="Subject" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <center><button type="submit" class="btn btn2">Send Message</button></center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =============== Footer =============== -->
+        <div class="copyright">
+            <p>&copy; 2024 ChiefBash</p>
+        </div>
+
+        <!-- =============== Scripts =============== -->
+        <!-- = Tablinks = -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <!-- = Sidemenu = -->
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
